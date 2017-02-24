@@ -1,0 +1,15 @@
+{
+	"notes": {
+		"torun": "update = php composer.phar update | fix autoload = php composer.phar dump-autoload -o "
+	},
+    "require": {
+        "slim/slim": "^3.7",
+		"nesbot/carbon": "~1.21",
+		"slim/twig-view": "^2.2"
+    },
+	"autoload": {
+		"psr-4": {
+			"App\\": "app"
+			}
+		}
+}
